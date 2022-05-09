@@ -62,7 +62,7 @@ jobs:
       uses: docker/build-push-action@v1
       with:
         username: ${{github.actor}}
-        password: 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
+        password: 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
         registry: docker.pkg.github.com
         repository: cbchadb35/github-actions-for-packages/tic-tac-toe
         tag_with_sha: true
